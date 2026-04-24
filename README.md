@@ -1,1 +1,56 @@
 # quadA
+
+## Instructions
+
+Write a function `QuadA` that prints a valid rectangle with a given width `x` and height `y`.
+
+The function must draw the rectangles as shown in the examples below.
+
+- If `x` and `y` are positive numbers, print the rectangle.
+- Otherwise, print nothing.
+
+Make sure you submit all the necessary files to run the program.
+
+---
+
+## Expected function
+
+```go
+func QuadA(x, y int) {
+
+}
+
+package main
+
+import "piscine"
+
+func main() {
+
+    piscine.QuadA(5, 3)
+}
+
+o---o
+|   |
+o---o
+
+package main
+
+import "piscine"
+
+func main() {
+    piscine.QuadA(5, 1)
+}
+
+package main
+
+import "piscine"
+
+func main() {
+    piscine.QuadA(1, 5)
+}
+
+o
+|
+|
+|
+o
