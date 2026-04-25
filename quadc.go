@@ -6,7 +6,7 @@ func QuadC(x, y int) {
 	if x <= 0 || y <= 0 {
 		return
 	}
-
+	
 	for row := 1; row <= y; row++ {
 		for col := 1; col <= x; col++ {
 			if row == 1 && col == 1 {
