@@ -20,6 +20,11 @@ func QuadA(x, y int) {
 
 }
 
+```
+
+Expected 1
+
+```go
 package main
 
 import "piscine"
@@ -29,9 +34,21 @@ func main() {
     piscine.QuadA(5, 3)
 }
 
+```
+
+Output
+
+```go
+
 o---o
 |   |
 o---o
+
+```
+
+Expected 2
+
+```go
 
 package main
 
@@ -41,6 +58,20 @@ func main() {
     piscine.QuadA(5, 1)
 }
 
+```
+
+Output
+
+```go
+
+o---o
+
+```
+
+Expected 3
+
+```go
+
 package main
 
 import "piscine"
@@ -48,6 +79,12 @@ import "piscine"
 func main() {
     piscine.QuadA(1, 5)
 }
+
+```
+
+Output
+
+```go
 
 o
 |
